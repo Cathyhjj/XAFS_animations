@@ -1,0 +1,72 @@
+
+ Name            : Fit 14    (vkwmq)                                            
+ Description     : fit to Pd_K_standard.dat                                     
+ Figure of merit : 14                                                           
+ Time of fit     : 2021-03-05T13:39:54                                          
+ Environment     : Demeter 0.9.26 with perl 5.024000 and using Ifeffit 1.2.12 on Windows 10
+ Interface       : Artemis (Wx 0.9928)                                          
+ Prepared by     :                                                              
+ Contact         :                                                              
+
+
+=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+
+
+Independent points          : 17.2714844
+Number of variables         : 4
+Chi-square                  : 88300.3856403
+Reduced chi-square          : 6653.3918246                                      
+R-factor                    : 0.0111010                                         
+Number of data sets         : 1
+
+
+Happiness = 100.00/100             color = #D8E796                              
+***** Note: happiness is a semantic parameter and should *****                  
+*****    NEVER be reported in a publication -- NEVER!    *****                  
+
+guess parameters:                                                               
+  s0                 =   0.44606162    # +/-   0.02505068     [1]
+  enot               =   2.72808746    # +/-   0.42698747     [0]
+  r1                 =  -0.03451562    # +/-   0.00238264     [0]
+  s1                 =   0.00465650    # +/-   0.00029511     [0]
+
+set parameters:                                                                 
+  n1                 =  12.00000000
+
+Correlations between variables:                                                 
+                  s1 & s0                 -->  0.8556
+                  r1 & enot               -->  0.7271
+All other correlations below 0.4
+
+===== Data set >> Pd_K_standard.dat << ====================================     
+
+: Athena project          = C:\Users\Philip\Desktop\Pd.prj, 10
+: name                    = Pd_K_standard.dat
+: k-range                 = 3.000 - 15
+: dk                      = 1
+: k-window                = Hanning
+: k-weight                = 1,2,3
+: R-range                 = 1.2 - 3.5
+: dR                      = 0.0
+: R-window                = Hanning
+: fitting space           = r
+: background function     = no
+: phase correction        = no
+: background removal      = E0: 24343.212166, Rbkg: 1.0, range: [0:17], clamps: 0/24, kw: 2
+: user-supplied epsilon_k = 0
+: epsilon_k by k-weight   = 2.725e-005
+: epsilon_r by k-weight   = 3.230e-002
+: R-factor by k-weight    = 1 -> 0.01581,  2 -> 0.00902,  3 -> 0.00847
+
+  name                           N       S02     sigma^2   e0     delr     Reff     R
+============================================================================================
+[Pd_mp-2_computed] Pd0.1      1.000   5.353   0.00466   2.728 -0.03452  2.79810  2.76358
+[AMS_DATA] Pd.1               1.000   5.353   0.00466   2.728 -0.03452  2.75050  2.71598
+
+  name                           ei       third     fourth
+============================================================
+[Pd_mp-2_computed] Pd0.1     0.00000   0.00000   0.00000
+[AMS_DATA] Pd.1              0.00000   0.00000   0.00000
+
+
+=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
