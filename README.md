@@ -7,7 +7,7 @@ Adapted from example: https://dododas.github.io/posts/2021/2021-01-17-matplotlib
 - 2024
 
   
-<img src="01_sine_wave_k_is_3.jpg" alt="01" style="width: 55%;">
+<img src="all_sine_waves_with_gradients.png" alt="01" style="width: 55%;">
 <img src="01_sine_wave_animation.gif" alt="01" style="width: 70%;">
 
 ---
